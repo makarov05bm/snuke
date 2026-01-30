@@ -25,3 +25,6 @@ Detects Google Cloud Storage (GCS) buckets using both the standard API and authe
 - **Standard API:** `storage.googleapis.com/bucket-name`
 - **Subdomain style:** `bucket-name.storage.googleapis.com`
 - **Console/Browser:** `storage.cloud.google.com/bucket-name`
+
+# Tool Usage
+As simple as `python3 main.py target.com`
