@@ -1,0 +1,5 @@
+requests
+dnspython
+colorama
+urllib3
+tldextract
