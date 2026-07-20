@@ -1,6 +1,8 @@
 # SNUKE Bucket Hunter
 a CLI tool that accepts a target domain, enumerates its subdomains, crawls them to identify cloud storage buckets (AWS, Azure, GCP), and checks if these buckets are publicly accessible or writable.
 
+<img width="1690" height="931" alt="956989a4-c76c-455c-8575-db949687e476" src="https://github.com/user-attachments/assets/84792f03-6f2c-432a-93a6-8c56bc9d5add" />
+
 >[IMPORTANT] The tool attempts to upload a file to discovered buckets to test writability. While this is a standard method for vulnerability verification, the user should be aware of this active interaction with external logical assets. The file name will be bug_bounty_poc.txt containing a harmless timestamp string.
 
 # 📦 Supported Cloud Storage Patterns
